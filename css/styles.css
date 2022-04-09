@@ -1,0 +1,176 @@
+/* ID Selectors */
+
+#features{
+  position: relative;
+  z-index: 1;
+}
+
+#testimonials, #tech-brands{
+  background-color: #ef8172;
+}
+
+
+/* General Selectors */
+
+
+h2, h3, h4, h5, h6{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+body{
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+/* Headings */
+.section-title{
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+}
+
+.testimonial-text{
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5
+}
+
+.pricing-text{
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+}
+
+.feature-title{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.big-heading{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* Title Section */
+
+#title .container-fluid{
+  padding-top: 50px;
+  text-align: left;
+}
+
+.navbar{
+  margin: 0 0 7% 0;
+}
+
+.brand{
+  color:white;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 2.3rem
+}
+
+.nav-link-format{
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+}
+
+
+.phone-img{
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+  width: 17%;
+}
+
+@media (max-width: 1028px){
+
+  #title{
+    text-align: center;
+  }
+  .phone-img{
+    position: static;
+    transform: rotate(0);
+    width: 40%;
+  }
+
+}
+
+.download-button{
+  margin:5% 3% 5% 0;
+  font-family: "Poppins", sans-serif;
+}
+/*
+Features Section */
+
+
+.icon{
+  color: #90EE90;
+  margin-bottom: 5%;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+.testimonial-img{
+  width: 7%;
+  border-radius: 100%;
+  margin: 40px 0 50px 0;
+}
+
+
+.testimonial-person{
+  position: relative;
+  left: 20px;
+}
+
+.press-logo{
+  width: 15%;
+}
+
+/* Tech Brands Section */
+
+#tech-brands .container-fluid{
+  padding-top: 0;
+}
+
+/*Pricing Section */
+
+.pricing-column{
+  padding:3% 2%;
+}
+.pricing-intro{
+  padding: 20px 0;
+}
+
+/*Footer Section */
+
+.footer-logo{
+  margin: 0 10px 20px 10px;
+}
+
+#footer.container-fluid{
+  padding: 7% 7%
+}
+
+.copyright-text{
+  color:#545454;
+}
