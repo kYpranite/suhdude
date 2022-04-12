@@ -1,2 +1,2 @@
 # suhdude
-A practice website design I made meant for dating gamers
+Simple example dating website!
